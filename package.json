@@ -4,6 +4,7 @@
   "description": "A TDD approach Todo API Using Node.js, Express.js and MongoDB",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
